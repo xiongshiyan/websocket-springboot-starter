@@ -1,0 +1,171 @@
+def VERSION = '1.0'
+def ARTIFACT_ID = 'websocket-springboot-starter'
+def GROUP_ID = 'top.jfunc.websocket'
+def TYPE = 'jar'
+def DESCRIPTION = 'websocket-springboot-starter to develop websocket'
+def gitUrl = 'https://gitee.com/xxssyyyyssxx/websocket-springboot-starter.git'
+def siteUrl = 'https://gitee.com/xxssyyyyssxx/websocket-springboot-starter'
+def REPO_NAME = 'business'
+
+
+group GROUP_ID
+version VERSION
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        //classpath "com.novoda:bintray-release:0.3.4"
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.6'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'eclipse'
+apply plugin: 'maven-publish'
+//用于上传到jcenter
+apply plugin: 'com.jfrog.bintray'
+//用于签名
+//apply plugin: 'signing'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web:1.5.7.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-websocket:1.5.7.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-data-redis:1.5.7.RELEASE")
+
+    compile 'top.jfunc.common:utils:1.8.1'
+    compile 'top.jfunc.json:json-fastjson:1.8.1'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.hamcrest' , name: 'hamcrest-core',version: '1.3'
+    testCompile group: 'org.hamcrest' , name: 'hamcrest-library',version: '1.3'
+
+}
+//Maven仓库的URL
+//注意需要在防火墙的高级规则中添加允许入站规则http://bbs.csdn.net/topics/390728329
+def MAVEN_REPO_RELEASE_URL= 'http://192.168.2.188:8081/nexus/content/repositories/releases/'
+def MAVEN_REPO_SNAPSHOT_URL= 'http://192.168.2.188:8081/nexus/content/repositories/snapshots/'
+//登录nexus ossde的用户名
+def NEXUS_USERNAME='admin'
+//登录nexus oss的密码
+def NEXUS_PASSWORD='admin123'
+
+uploadArchives {
+    configuration = configurations.archives
+    repositories {
+        mavenDeployer {
+            /*snapshotRepository(url: MAVEN_REPO_SNAPSHOT_URL) {
+                authentication(userName: NEXUS_USERNAME, password: NEXUS_PASSWORD)
+            }
+            repository(url: MAVEN_REPO_RELEASE_URL) {
+                authentication(userName: NEXUS_USERNAME, password: NEXUS_PASSWORD)
+            }*/
+            repository(url: uri('C:\\Users\\xiongshiyan\\.m2\\repository')) //定义本地maven仓库的地址
+//            repository(url: uri('C:\\Users\\xiongshiyan\\.gradle\\caches\\modules-2\\files-2.1')) //定义本地Gradle仓库的地址
+            pom.project {
+                version VERSION
+                artifactId ARTIFACT_ID
+                groupId GROUP_ID
+                packaging TYPE
+                description DESCRIPTION
+            }
+        }
+    }
+}
+
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+
+install {
+    repositories.mavenInstaller {
+        // This generates POM.xml with proper parameters
+        pom {
+            project {
+                packaging TYPE
+                name ARTIFACT_ID
+                description DESCRIPTION
+                url siteUrl
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'xxssyyyyssxx'
+                        name 'xiongshiyan'
+                        email 'xxssyyyyssxx@126.com'
+                    }
+                }
+                scm {
+                    connection gitUrl
+                    developerConnection gitUrl
+                    url siteUrl
+                }
+            }
+        }
+    }
+}
+
+task sourcesJar(type: Jar, dependsOn: classes) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives sourcesJar
+    archives javadocJar
+}
+
+/*signing {
+    sign configurations.archives
+}*/
+
+tasks.withType(Javadoc) {
+    /*options.encoding = 'UTF-8'*/
+    options{
+        encoding "UTF-8"
+        charSet 'UTF-8'
+        links "http://docs.oracle.com/javase/7/docs/api"
+    }
+    options.addStringOption('Xdoclint:none', '-quiet')
+}
+
+bintray {
+    Properties properties = new Properties()
+    boolean isHasFile = false
+    if (project.rootProject.file('local.properties') != null){
+        isHasFile = true
+        properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    }
+    user = isHasFile ? properties.getProperty("bintray.user") : System.getenv("bintray.user")
+    key = isHasFile ? properties.getProperty("bintray.apikey") : System.getenv("bintray.apikey")
+
+    configurations = ['archives']
+    pkg {
+        repo = REPO_NAME
+        name = ARTIFACT_ID //项目名称
+        websiteUrl = siteUrl
+        vcsUrl = gitUrl
+        licenses = ["Apache-2.0"]
+        publish = true
+    }
+}

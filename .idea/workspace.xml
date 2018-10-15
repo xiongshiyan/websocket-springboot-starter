@@ -1,0 +1,1863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e93d9b5e-f2b4-4b0c-8cc1-a4026d584266" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="websocket-springboot-starter" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="websocket-springboot-starter" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="websocket-springboot-starter" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="websocket-springboot-starter" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="websocket-springboot-starter" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="websocket-springboot-starter" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="upload" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RedisWebSocketManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/RedisWebSocketManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemWebSocketManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/memory/MemWebSocketManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="4" column="68" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisWebSocketConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/RedisWebSocketConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1107">
+              <caret line="41" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSocketManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/WebSocketManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemoryWebSocketConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/memory/MemoryWebSocketConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConditionalOnMissingBean.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.5.7.RELEASE/2cf2cfec18d5ab88d9a6c57a2ce1c4e6e8232ff0/spring-boot-autoconfigure-1.5.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnMissingBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/RedisReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Action.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/Action.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSocketEndpoint.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/WebSocketEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2187">
+              <caret line="81" column="13" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="C:\Users\xiongshiyan\.gradle\wrapper\dists\gradle-3.5-rc-2-bin\7ktl4k9rdug30mawecgppf5ms\gradle-3.5-rc-2" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3.5" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="websocket-springboot-starter" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="websocket-springboot-starter" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'websocket-springboot-starter'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Publishes artifacts to bintray.com." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bintrayUpload" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="sourcesJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse classpath file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'websocket-springboot-starter'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'websocket-springboot-starter'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadocJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'websocket-springboot-starter'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse JDT settings file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="install" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates the Eclipse project file." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="eclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'websocket-springboot-starter'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseClasspath" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Cleans all Eclipse files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipse" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'websocket-springboot-starter'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'websocket-springboot-starter'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseProject" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="cleanEclipseJdt" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'websocket-springboot-starter'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Publishes all publications produced by this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="publish" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Publishes all Maven publications produced by this project to the local Maven cache." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="publishToMavenLocal" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uploads all artifacts belonging to configuration ':archives'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="uploadArchives" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'websocket-springboot-starter'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="6139050525175" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="521690754" />
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="615277776" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jfrog.bintray.gradle/gradle-bintray-plugin/1.6/cfb9663e11e4321d040d64038e93f86fa4105483/gradle-bintray-plugin-1.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jfrog.bintray.gradle/gradle-bintray-plugin/1.6/1dfdf1464f019fe1316ecec354ff7f6d39309035/gradle-bintray-plugin-1.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy.modules.http-builder/http-builder/0.7.2/f1860181de06236f28f3f247aed57fa4631016d8/http-builder-0.7.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy.modules.http-builder/http-builder/0.7.2/323092cd786480311c1cf693770f9e6fc20a8bef/http-builder-0.7.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-ant-tasks/2.1.3/49136cf7eb0e463e080ad2ebb0f65e91b19c8101/maven-ant-tasks-2.1.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-ant-tasks/2.1.3/b09be554228d66d208e5fef5266844aacf443abc/maven-ant-tasks-2.1.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.2.1/6b27312b9c28b59aaeb6c21f3490045690c703d3/httpclient-4.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.2.1/b69bd03af60bf487b3ae1209a644ecac587bf6fc/httpclient-4.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.json-lib/json-lib/2.3/f35340c0a0380141f62c72b76c8fb4bfa638d8c1/json-lib-2.3-jdk15.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.nekohtml/nekohtml/1.9.16/2d40ea21fae95418331ddc66efb6744a38bf59a/nekohtml-1.9.16-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.nekohtml/nekohtml/1.9.16/61e35204e5a8fdb864152f84e2e3b33ab56f50ab/nekohtml-1.9.16.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-resolver/xml-resolver/1.2/6b72432ea1c5296783007365bb7c9a6b39dfb730/xml-resolver-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xml-resolver/xml-resolver/1.2/3d0f97750b3a03e0971831566067754ba4bfd68c/xml-resolver-1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.8.0/2e585348c06d55d4c27c4afe46721fd5d6a43d9d/ant-1.8.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.8.0/7b456ca6b93900f96e58cc8371f03d90a9c1c8d1/ant-1.8.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/classworlds/classworlds/1.1-alpha-2/5adf2e681c57d7f48038b602f3ca2254ee82d47/classworlds-1.1-alpha-2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-container-default/1.0-alpha-9-stable-1/e9b8cdfbdca8f10c3d86f8c9ef16ab231bc379a7/plexus-container-default-1.0-alpha-9-stable-1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-container-default/1.0-alpha-9-stable-1/94aea3010e250a334d9dab7f591114cd6c767458/plexus-container-default-1.0-alpha-9-stable-1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/1.5.15/1b1039b7725a6d1dd7b9f123acc5ad4b3b10d4ef/plexus-utils-1.5.15-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/1.5.15/c689598ce1eb94c304817877ed15911099972526/plexus-utils-1.5.15.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.11/80d47c6b183bd5ba343c36cf84d73daf28a31c64/plexus-interpolation-1.11-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-interpolation/1.11/ad9dddff6043194904ad1d2c00ff1d003c3915f7/plexus-interpolation-1.11.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/2.2.1/2254a7c4df37ee565bb557e46325f8483942a368/maven-artifact-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/2.2.1/23600f790d4dab2cb965419eaa982e3e84c428f8/maven-artifact-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact-manager/2.2.1/4cbd2b82fd13793898272e3efde94553e0a34766/maven-artifact-manager-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact-manager/2.2.1/ec355b913c34d37080810f98e3f51abecbe1572b/maven-artifact-manager-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-model/2.2.1/3d7c035d8455862ea4e4d7df0f19f96426da8cd6/maven-model-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-model/2.2.1/c0a1c17436ec3ff5a56207c031d82277b4250a29/maven-model-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-project/2.2.1/48d00094f3534d54ac9103cc1e1ac0d19373f96d/maven-project-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-project/2.2.1/8239e98c16f641d55a4ad0e0bab0aee3aff8933f/maven-project-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-error-diagnostics/2.2.1/8a39928ed8627f01b9c36e0e2aea8915d5aef848/maven-error-diagnostics-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-error-diagnostics/2.2.1/e81bb342d7d172f23d108dc8fa979a1facdcde8e/maven-error-diagnostics-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/2.2.1/9b5adc6a8a8de7bba166f189551630ed6c879c0/maven-settings-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/2.2.1/2236ffe71fa5f78ce42b0f5fc22c54ed45f14294/maven-settings-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-file/1.0-beta-6/9615a8a9e38f6303e863624c1391868d622ecb8/wagon-file-1.0-beta-6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-file/1.0-beta-6/6c53633505460caf49d2660de1e24744d915afb9/wagon-file-1.0-beta-6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-http-lightweight/1.0-beta-6/a7c0a4d1d9f226f4cff661117e2248fe93abc222/wagon-http-lightweight-1.0-beta-6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-http-lightweight/1.0-beta-6/b3815078570c3b1f0667e123d59717c6b726c6c2/wagon-http-lightweight-1.0-beta-6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-provider-api/1.0-beta-6/2ed36dee4bd5ed91a9ab12a4378189d97dddd932/wagon-provider-api-1.0-beta-6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-provider-api/1.0-beta-6/3f952e0282ae77ae59851d96bb18015e520b6208/wagon-provider-api-1.0-beta-6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.2.1/3f6caf5334fa83607b82e2f32dd128a9d8a0ea5e/httpcore-4.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.2.1/2d503272bf0a8b5f92d64db78b4ba9abbaccc6fd/httpcore-4.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/f3f156cbff0e0fb0d64bfce31a352cce4a33bc19/commons-logging-1.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/61e9f9d11fe3e12ec62f633006e99d75fd7f19c8/commons-codec-1.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/2818502bbb50bbcbd3f57e92a2bfe4d496f37688/commons-beanutils-1.8.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.8.0/c651d5103c649c12b20d53731643e5fffceb536/commons-beanutils-1.8.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/fa095ef874374e5b2a11f8b06c26a5d68c7cb3a4/commons-collections-3.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/2b8c4b3035e45520ef42033e823c7d33e4b4402c/commons-lang-2.4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.4/16313e02a793435009f1e458fa4af5d879f6fb11/commons-lang-2.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.ezmorph/ezmorph/1.0.6/298992280d62b944afd0ae9bfe3329f5487dd434/ezmorph-1.0.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.ezmorph/ezmorph/1.0.6/1e55d2a0253ea37745d33062852fd2c90027432/ezmorph-1.0.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xerces/xercesImpl/2.9.1/e30837a0843d5ea477b9334efdb730e66ffbd253/xercesImpl-2.9.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xerces/xercesImpl/2.9.1/1136d197e2755bbde296ceee217ec5fe2917477b/xercesImpl-2.9.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.8.0/8b53ba16fa62fb1034da8f1de200ddc407c8381/ant-launcher-1.8.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.1/525753763e53f6f76da052b316d0f2e3bfa4d73/junit-3.8.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.1/99129f16442844f6a4a11ae22fbbee40b14d774f/junit-3.8.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-repository-metadata/2.2.1/3b32786962e043891fc08265618c8b1d37c120b9/maven-repository-metadata-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-repository-metadata/2.2.1/98f0c07fcf1eeb213bef8d9316a9935184084b06/maven-repository-metadata-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/backport-util-concurrent/backport-util-concurrent/3.1/eff8366924cf1a666dd20aa632febf1c2c05b8cb/backport-util-concurrent-3.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/backport-util-concurrent/backport-util-concurrent/3.1/682f7ac17fed79e92f8e87d8455192b63376347b/backport-util-concurrent-3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-profile/2.2.1/c20d767b267a679af494ee62c313e2ff8ba43116/maven-profile-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-profile/2.2.1/3950071587027e5086e9c395574a60650c432738/maven-profile-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-plugin-registry/2.2.1/4bb2899cf7f21818266035efab67a8cd5068ebd0/maven-plugin-registry-2.2.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-plugin-registry/2.2.1/72a24b7775649af78f3986b5aa7eb354b9674cfd/maven-plugin-registry-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-http-shared/1.0-beta-6/18bd7878bf8ce32f353563190b2e88f1d45da470/wagon-http-shared-1.0-beta-6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-http-shared/1.0-beta-6/ccd70d7e0d8c085e648a83f072da06ca9a53be94/wagon-http-shared-1.0-beta-6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/nekohtml/xercesMinimal/1.9.6.2/d1c5e063683a0e6f77cd5f051a9d4af48346fa6/xercesMinimal-1.9.6.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/nekohtml/nekohtml/1.9.6.2/c007e4add79842d6b76f0b056ddb14e848424b86/nekohtml-1.9.6.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/nekohtml/nekohtml/1.9.6.2/2d960be7b62ae6622dbbbe49ab4ffdc609f85c80/nekohtml-1.9.6.2.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="websocket-springboot-starter" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/announce" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/antlr" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/base-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/base-services-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/build-cache-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/build-comparison" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/build-init" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/cli" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/code-quality" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/composite-builds" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/dependency-management" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/diagnostics" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ear" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ide" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ide-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ide-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/installation-beacon" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/internal-android-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/internal-integ-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/internal-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/internal-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ivy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/jacoco" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/javascript" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/jetty" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/jvm-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/language-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/language-java" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/language-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/language-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/language-scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/launcher" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/logging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/maven" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/messaging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/model-core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/model-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/open-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/osgi" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/platform-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/platform-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/platform-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/platform-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/plugin-development" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/plugin-use" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/plugins" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/process-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/publish" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/reporting" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/resources" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/resources-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/resources-s3" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/resources-sftp" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/signing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/test-kit" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/testing-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/testing-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/testing-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/tooling-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/tooling-api-builders" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ui" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/workers" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/wrapper" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/ant-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-base-services-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-base-services-groovy-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-cli-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-core-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-docs-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-installation-beacon-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-jvm-services-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-launcher-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-logging-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-messaging-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-model-core-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-model-groovy-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-native-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-open-api-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-process-services-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-resources-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-runtime-api-info-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-script-kotlin-0.8.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-tooling-api-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-ui-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-version-info-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-wrapper-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/groovy-all-2.4.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-announce-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-antlr-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-build-cache-http-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-build-comparison-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-build-init-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-code-quality-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-composite-builds-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-dependency-management-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-diagnostics-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-ear-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-ide-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-ide-native-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-ide-play-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-ivy-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-jacoco-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-javascript-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-jetty-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-language-groovy-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-language-java-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-language-jvm-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-language-native-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-language-scala-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-maven-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-osgi-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-platform-base-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-platform-jvm-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-platform-native-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-platform-play-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-plugin-development-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-plugin-use-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-plugins-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-publish-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-reporting-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-resources-http-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-resources-s3-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-resources-sftp-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-scala-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-signing-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-test-kit-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-testing-base-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-testing-jvm-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-testing-native-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-tooling-api-builders-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-workers-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/utils/WebSocketUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/utils/SpringContextHolder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/NoActionAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/utils/JsonUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/BroadCastAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/ChangeStatusAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/SendMessageAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/EnableWebSocketManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/EnableMemWebSocketManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/memory/EnableMemWebSocketManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/AactionConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/ActionConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/EnableRedisWebSocketManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/memory/MemWebSocketManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/RedisReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/Action.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/RedisWebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/memory/MemoryWebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/WebSocketManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/WebSocketEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/RedisWebSocketManager.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="544" />
+    <option name="y" value="14" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>ActionScript specificJavaScript</id>
+          </State>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Internationalization</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Lint</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Ant inspections</id>
+          </State>
+          <State>
+            <id>BashSupport</id>
+          </State>
+          <State>
+            <id>Batch Applications Issues</id>
+          </State>
+          <State>
+            <id>CFML</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code quality toolsCSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>Flow type checkerJavaScript</id>
+          </State>
+          <State>
+            <id>FreeMarker inspections</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Ini Files</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java interop issuesKotlin</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Manifest</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>OtherGroovy</id>
+          </State>
+          <State>
+            <id>Pages Navigation Model</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Properties FilesJava</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>RESTful Web Service</id>
+          </State>
+          <State>
+            <id>Resource management issuesJava</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
+          <State>
+            <id>SetupSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring BootSpring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>Struts 2Struts</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
+          </State>
+          <State>
+            <id>Velocity inspections</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websocket-springboot-starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websocket-springboot-starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websocket-springboot-starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websocket-springboot-starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websocket-springboot-starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websocket-springboot-starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="memory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websocket-springboot-starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websocket-springboot-starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websocket-springboot-starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websocket-springboot-starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.5.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.5.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.5.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="condition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.data:spring-data-redis:1.8.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.data:spring-data-redis:1.8.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-1.8.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-context:4.3.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-context:4.3.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-4.3.11.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-context:4.3.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-4.3.11.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-context:4.3.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-4.3.11.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websocket-springboot-starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework:spring-context:4.3.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-4.3.11.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduling" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="D:/Software/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../websocket-demo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.jfunc.websocket" />
+      <recent name="top.jfunc.websocket.redis.action" />
+      <recent name="top.jfunc.websocket.redis" />
+      <recent name="top.jfunc.websocket.memory" />
+      <recent name="top.jfunc.websocket.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\j2eeWorkspace_DZG\Common\websocket-springboot-starter\src\main\java\top\jfunc\websocket\redis" />
+      <recent name="D:\j2eeWorkspace_DZG\Common\websocket-springboot-starter\src\main\java\top\jfunc\websocket" />
+      <recent name="D:\j2eeWorkspace_DZG\Common\websocket-springboot-starter" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.websocket-springboot-starter [uploadArchives]">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="websocket-springboot-starter [uploadArchives]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="uploadArchives" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.websocket-springboot-starter [uploadArchives]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e93d9b5e-f2b4-4b0c-8cc1-a4026d584266" name="Default" comment="" />
+      <created>1539570745332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539570745332</updated>
+      <workItem from="1539570751057" duration="1465000" />
+      <workItem from="1539572422439" duration="9374000" />
+      <workItem from="1539585600686" duration="249000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11088000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19591528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14372164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/WebSocketManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/memory/MemoryWebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.5.7.RELEASE/2cf2cfec18d5ab88d9a6c57a2ce1c4e6e8232ff0/spring-boot-autoconfigure-1.5.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnMissingBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/RedisReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/WebSocketEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2187">
+          <caret line="81" column="13" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/EnableRedisWebSocketManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/memory/MemWebSocketManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/SendMessageAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/NoActionAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/RedisWebSocketManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/WebSocketManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/RedisWebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/utils/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/RedisReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/BroadCastAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/WebSocketEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2241">
+          <caret line="83" column="5" lean-forward="true" selection-start-line="81" selection-start-column="4" selection-end-line="83" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/ActionFactory.java" />
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/ChangeStatusAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-426">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.11.RELEASE/148a8463bd0746a4ee05c56e2c414b3c5812fcaf/spring-context-4.3.11.RELEASE-sources.jar!/org/springframework/cache/annotation/CachingConfigurationSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-769">
+          <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.11.RELEASE/148a8463bd0746a4ee05c56e2c414b3c5812fcaf/spring-context-4.3.11.RELEASE-sources.jar!/org/springframework/cache/annotation/EnableCaching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="168" column="26" lean-forward="false" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.11.RELEASE/148a8463bd0746a4ee05c56e2c414b3c5812fcaf/spring-context-4.3.11.RELEASE-sources.jar!/org/springframework/scheduling/annotation/AsyncConfigurationSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.11.RELEASE/148a8463bd0746a4ee05c56e2c414b3c5812fcaf/spring-context-4.3.11.RELEASE-sources.jar!/org/springframework/scheduling/annotation/EnableAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="154" column="22" lean-forward="false" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.11.RELEASE/148a8463bd0746a4ee05c56e2c414b3c5812fcaf/spring-context-4.3.11.RELEASE-sources.jar!/org/springframework/scheduling/annotation/SchedulingConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/1.8.7.RELEASE/497f83fcffbf98839f957241c0ccffb1cffdd938/spring-data-redis-1.8.7.RELEASE-sources.jar!/org/springframework/data/redis/repository/configuration/RedisRepositoriesRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-redis/1.8.7.RELEASE/497f83fcffbf98839f957241c0ccffb1cffdd938/spring-data-redis-1.8.7.RELEASE-sources.jar!/org/springframework/data/redis/repository/configuration/EnableRedisRepositories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="51" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.11.RELEASE/148a8463bd0746a4ee05c56e2c414b3c5812fcaf/spring-context-4.3.11.RELEASE-sources.jar!/org/springframework/scheduling/annotation/EnableScheduling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="201" column="18" lean-forward="false" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/ActionFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/utils/SpringContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/utils/WebSocketUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/utils/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/WebSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/NoActionAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/memory/EnableMemWebSocketManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/BroadCastAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/ActionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/SendMessageAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/EnableRedisWebSocketManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.5.7.RELEASE/2cf2cfec18d5ab88d9a6c57a2ce1c4e6e8232ff0/spring-boot-autoconfigure-1.5.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/OnBeanCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4090">
+          <caret line="57" column="6" lean-forward="false" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.5.7.RELEASE/2cf2cfec18d5ab88d9a6c57a2ce1c4e6e8232ff0/spring-boot-autoconfigure-1.5.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnMissingBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/RedisWebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="41" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/memory/MemoryWebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/WebSocketManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/WebSocketEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2187">
+          <caret line="81" column="13" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/action/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/RedisReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/redis/RedisWebSocketManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/jfunc/websocket/memory/MemWebSocketManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="4" column="68" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_144</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8.0_144</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
+    <setting name="isActivated" value="false" />
+  </component>
+</project>
