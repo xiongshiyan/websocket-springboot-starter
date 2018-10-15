@@ -4,9 +4,10 @@
 websocket-springboot-starter to develop websocket
 
 #### 软件架构
-基于springboot websocket 定制，主要完成的功能是session的状态管理
+1.基于springboot websocket 定制，主要完成的功能是WebSocket session的状态管理，具备单机和集群能力。
+2.可以定制自己的ServerEndPoint和WebSocketManager。
 
-
+使用方式参见 https://gitee.com/xxssyyyyssxx/websocket-demo
 #### 安装教程
 
 compile 'top.jfunc.websocket:websocket-springboot-starter:1.0'
