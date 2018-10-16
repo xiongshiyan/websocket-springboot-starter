@@ -25,7 +25,7 @@ import java.util.Map;
 public class RedisWebSocketManager extends MemWebSocketManager {
     public static final String CHANNEL    = "websocket";
     private static final String COUNT_KEY = "RedisWebSocketManagerCountKey";
-    private StringRedisTemplate stringRedisTemplate;
+    protected StringRedisTemplate stringRedisTemplate;
 
     public RedisWebSocketManager(StringRedisTemplate stringRedisTemplate) {
         this.stringRedisTemplate = stringRedisTemplate;
