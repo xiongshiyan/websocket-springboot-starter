@@ -62,20 +62,20 @@ public class RedisWebSocketManager extends MemWebSocketManager {
 
 
         Map<String , Object> map = new HashMap<>(3);
-        map.put(RedisReceiver.ACTION , SendMessageAction.class.getName());
-        map.put(RedisReceiver.IDENTIFIER , identifier);
+        map.put(DefaultRedisReceiver.ACTION , SendMessageAction.class.getName());
+        map.put(DefaultRedisReceiver.IDENTIFIER , identifier);
         map.put("message" , message);
         //在websocket频道上发布发送消息的消息
-        stringRedisTemplate.convertAndSend(CHANNEL , JsonUtil.serializeMap(map));
+        stringRedisTemplate.convertAndSend(getChannel() , JsonUtil.serializeMap(map));
     }
 
     @Override
     public void broadcast(String message) {
         Map<String , Object> map = new HashMap<>(2);
-        map.put(RedisReceiver.ACTION , BroadCastAction.class.getName());
+        map.put(DefaultRedisReceiver.ACTION , BroadCastAction.class.getName());
         map.put("message" , message);
         //在websocket频道上发布广播的消息
-        stringRedisTemplate.convertAndSend(CHANNEL , JsonUtil.serializeMap(map));
+        stringRedisTemplate.convertAndSend(getChannel() , JsonUtil.serializeMap(map));
     }
 
     @Override
@@ -86,11 +86,15 @@ public class RedisWebSocketManager extends MemWebSocketManager {
             return;
         }
         Map<String , Object> map = new HashMap<>(3);
-        map.put(RedisReceiver.ACTION , ChangeStatusAction.class.getName());
-        map.put(RedisReceiver.IDENTIFIER , identifier);
+        map.put(DefaultRedisReceiver.ACTION , ChangeStatusAction.class.getName());
+        map.put(DefaultRedisReceiver.IDENTIFIER , identifier);
         map.put("status" , status);
         //在websocket频道上发布改变状态的消息
-        stringRedisTemplate.convertAndSend(CHANNEL , JsonUtil.serializeMap(map));
+        stringRedisTemplate.convertAndSend(getChannel() , JsonUtil.serializeMap(map));
+    }
+
+    protected String getChannel(){
+        return CHANNEL;
     }
 
     /**

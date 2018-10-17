@@ -1,7 +1,6 @@
 package top.jfunc.websocket.redis;
 
 import org.springframework.context.annotation.Import;
-import top.jfunc.websocket.redis.action.ActionConfig;
 
 import java.lang.annotation.*;
 
@@ -12,6 +11,6 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Inherited
-@Import({RedisWebSocketConfig.class , ActionConfig.class})
+@Import({RedisWebSocketConfig.class})
 public @interface EnableRedisWebSocketManager {
 }

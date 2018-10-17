@@ -3,7 +3,7 @@ package top.jfunc.websocket.redis.action;
 import top.jfunc.json.impl.JSONObject;
 import top.jfunc.websocket.WebSocket;
 import top.jfunc.websocket.WebSocketManager;
-import top.jfunc.websocket.redis.RedisReceiver;
+import top.jfunc.websocket.redis.DefaultRedisReceiver;
 
 /**
  * {
@@ -18,13 +18,13 @@ public class ChangeStatusAction implements Action{
     private static final String STATUS = "status";
     @Override
     public void doMessage(WebSocketManager manager , JSONObject object) {
-        if(!object.containsKey(RedisReceiver.IDENTIFIER)){
+        if(!object.containsKey(DefaultRedisReceiver.IDENTIFIER)){
             return;
         }
         if(!object.containsKey(STATUS)){
             return;
         }
-        WebSocket webSocket = manager.get(object.getString(RedisReceiver.IDENTIFIER));
+        WebSocket webSocket = manager.get(object.getString(DefaultRedisReceiver.IDENTIFIER));
         if(null == webSocket){
             return;
         }
