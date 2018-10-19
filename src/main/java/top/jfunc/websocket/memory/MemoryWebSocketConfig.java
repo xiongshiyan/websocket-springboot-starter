@@ -16,6 +16,7 @@ public class MemoryWebSocketConfig {
      * applicationContext全局保存器
      */
     @Bean
+    @ConditionalOnMissingBean
     public SpringContextHolder springContextHolder(){
         return new SpringContextHolder();
     }
