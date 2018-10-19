@@ -72,4 +72,24 @@ public interface WebSocketManager {
      * @param message 消息内容
      */
     void onMessage(String identifier , String message);
+
+    /**
+     * 在OnMessage中判断是否是心跳
+     * @param identifier 标识
+     * @param message 消息
+     * @return 是否是ping消息
+     */
+    default boolean isPing(String identifier , String message){
+        return "ping".equalsIgnoreCase(message);
+    }
+
+    /**
+     * 返回心跳信息
+     * @param identifier 标识
+     * @param message 消息
+     * @return 返回的pong消息
+     */
+    default String pong(String identifier , String message){
+        return "pong";
+    }
 }

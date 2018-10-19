@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import top.jfunc.common.utils.StrUtil;
 import top.jfunc.websocket.utils.SpringContextHolder;
+import top.jfunc.websocket.utils.WebSocketUtil;
 
 import javax.websocket.*;
 import javax.websocket.server.PathParam;
@@ -69,7 +70,15 @@ public class WebSocketEndpoint {
     public void onMessage(String message, Session session , @PathParam(IDENTIFIER) String identifier) {
         logger.info("接收到的数据为：" + message + " from sessionId " + session.getId() + " , identifier = " + identifier);
 
-        getWebSocketManager().onMessage(identifier , message);
+        WebSocketManager webSocketManager = getWebSocketManager();
+        //心跳监测
+        if(webSocketManager.isPing(identifier , message)){
+            String pong = webSocketManager.pong(identifier, message);
+            WebSocketUtil.sendMessage(session, pong);
+            return;
+        }
+        //收到其他消息的时候
+        webSocketManager.onMessage(identifier , message);
     }
 
     @OnError
