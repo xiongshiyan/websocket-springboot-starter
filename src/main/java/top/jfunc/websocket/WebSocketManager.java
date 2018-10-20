@@ -74,7 +74,8 @@ public interface WebSocketManager {
     void onMessage(String identifier , String message);
 
     /**
-     * 在OnMessage中判断是否是心跳
+     * 在OnMessage中判断是否是心跳,
+     * 从客户端的消息判断是否是ping消息
      * @param identifier 标识
      * @param message 消息
      * @return 是否是ping消息
