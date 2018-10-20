@@ -7,7 +7,6 @@ import top.jfunc.websocket.utils.SpringContextHolder;
 import top.jfunc.websocket.utils.WebSocketUtil;
 
 import javax.websocket.*;
-import javax.websocket.server.PathParam;
 
 /**
  * NOTE: Nginx反向代理要支持WebSocket，需要配置几个header，否则连接的时候就报404
@@ -18,30 +17,52 @@ import javax.websocket.server.PathParam;
  * @author xiongshiyan at 2018/10/10 , contact me with email yanshixiong@126.com or phone 15208384257
  */
 /*@Component
-@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 @ServerEndpoint(value ="/websocket/connect/{identifier}")*/
 
 /**
- * 写自己的Endpoint类，继承自此类，添加@ServerEndpoint、@Component注解即可
+ * 写自己的Endpoint类，继承自此类，添加@ServerEndpoint、@Component注解，
+ * 然后在方法中添加@OnOpen、@OnMessage、@OnClose、@OnError即可，这些方法中可以调用父类方法
+ * @author xiongshiyan
  */
 public class WebSocketEndpoint {
     /**
      * 路径标识：目前使用token来代表
      */
-    private static final String IDENTIFIER = "identifier";
+    public static final String IDENTIFIER = "identifier";
     private static final Logger logger = LoggerFactory.getLogger(WebSocketEndpoint.class);
 
     /// 无法通过这种方式注入组件
     /*@Autowired
     private WebSocketManager websocketManager;*/
 
-    public WebSocketEndpoint() {
-    }
-
-    @OnOpen
+    ///
+    /*@OnOpen
     public void onOpen(Session session, @PathParam(IDENTIFIER) String identifier) {
+        logger.info("*** WebSocket opened from sessionId " + session.getId() + " , identifier = " + identifier);
+        connect(identifier, session);
+    }*/
+    ///
+    /*@OnMessage
+    public void onMessage(String message, Session session , @PathParam(IDENTIFIER) String identifier) {
+        logger.info("接收到的数据为：" + message + " from sessionId " + session.getId() + " , identifier = " + identifier);
+        receiveMessage(identifier, message, session);
+    }*/
+    ////
+    /*@OnClose
+    public void onClose(Session session , @PathParam(IDENTIFIER) String identifier) {
+        logger.info("*** WebSocket closed from sessionId " + session.getId() + " , identifier = " + identifier);
+        disconnect(identifier);
+    }*/
+    ///
+    /*@OnError
+    public void onError(Throwable t , @PathParam(IDENTIFIER) String identifier){
+        logger.info("发生异常：, identifier = " + identifier);
+        logger.error(t.getMessage() , t);
+        disconnect(identifier);
+    }*/
+
+    public void connect(String identifier, Session session) {
         try {
-            logger.info("*** WebSocket opened from sessionId " + session.getId() + " , identifier = " + identifier);
             if(StrUtil.isBlank(identifier)){
                 return;
             }
@@ -60,16 +81,11 @@ public class WebSocketEndpoint {
         }
     }
 
-    @OnClose
-    public void onClose(Session session , @PathParam(IDENTIFIER) String identifier) {
-        logger.info("*** WebSocket closed from sessionId " + session.getId() + " , identifier = " + identifier);
+    public void disconnect(String identifier) {
         getWebSocketManager().remove(identifier);
     }
 
-    @OnMessage
-    public void onMessage(String message, Session session , @PathParam(IDENTIFIER) String identifier) {
-        logger.info("接收到的数据为：" + message + " from sessionId " + session.getId() + " , identifier = " + identifier);
-
+    public void receiveMessage(String identifier, String message, Session session) {
         WebSocketManager webSocketManager = getWebSocketManager();
         //心跳监测
         if(webSocketManager.isPing(identifier , message)){
@@ -79,13 +95,6 @@ public class WebSocketEndpoint {
         }
         //收到其他消息的时候
         webSocketManager.onMessage(identifier , message);
-    }
-
-    @OnError
-    public void onError(Throwable t , @PathParam(IDENTIFIER) String identifier){
-        logger.info("发生异常：, identifier = " + identifier);
-        logger.error(t.getMessage() , t);
-        getWebSocketManager().remove(identifier);
     }
 
     protected WebSocketManager getWebSocketManager() {
