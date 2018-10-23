@@ -42,10 +42,6 @@ public class MemWebSocketManager implements WebSocketManager {
         WebSocket webSocket = get(identifier);
         if(null == webSocket){throw new RuntimeException("identifier 不存在");}
 
-        if(WebSocket.STATUS_AVAILABLE != webSocket.getStatus()){
-            return;
-        }
-
         WebSocketUtil.sendMessage(webSocket.getSession() , message);
     }
 

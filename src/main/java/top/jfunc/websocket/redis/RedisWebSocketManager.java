@@ -6,6 +6,7 @@ import top.jfunc.websocket.memory.MemWebSocketManager;
 import top.jfunc.websocket.WebSocket;
 import top.jfunc.websocket.redis.action.BroadCastAction;
 import top.jfunc.websocket.redis.action.ChangeStatusAction;
+import top.jfunc.websocket.redis.action.RemoveAction;
 import top.jfunc.websocket.redis.action.SendMessageAction;
 import top.jfunc.websocket.utils.JsonUtil;
 import top.jfunc.websocket.utils.WebSocketUtil;
@@ -41,7 +42,16 @@ public class RedisWebSocketManager extends MemWebSocketManager {
 
     @Override
     public void remove(String identifier) {
-        super.remove(identifier);
+        boolean containsKey = localWebSocketMap().containsKey(identifier);
+        if(containsKey){
+            super.remove(identifier);
+        }else {
+            Map<String , Object> map = new HashMap<>(2);
+            map.put(DefaultRedisReceiver.ACTION , RemoveAction.class.getName());
+            map.put(DefaultRedisReceiver.IDENTIFIER , identifier);
+            //在websocket频道上发布发送消息的消息
+            stringRedisTemplate.convertAndSend(CHANNEL , JsonUtil.serializeMap(map));
+        }
         //在线数量减1
         countChange(-1);
     }
@@ -55,7 +65,7 @@ public class RedisWebSocketManager extends MemWebSocketManager {
     public void sendMessage(String identifier, String message) {
         WebSocket webSocket = get(identifier);
         //本地能找到就直接发
-        if(null != webSocket && WebSocket.STATUS_AVAILABLE == webSocket.getStatus()){
+        if(null != webSocket){
             WebSocketUtil.sendMessage(webSocket.getSession() , message);
             return;
         }

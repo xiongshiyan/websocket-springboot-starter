@@ -30,3 +30,4 @@
 /.nb-gradle/
 /logs/spring.log
 /local.properties
+/gradle/
