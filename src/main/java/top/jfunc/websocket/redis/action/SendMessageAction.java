@@ -29,7 +29,7 @@ public class SendMessageAction implements Action{
         String identifier = object.getString(DefaultRedisReceiver.IDENTIFIER);
 
         WebSocket webSocket = manager.get(identifier);
-        if(null == webSocket || WebSocket.STATUS_AVAILABLE != webSocket.getStatus()){
+        if(null == webSocket){
             return;
         }
         WebSocketUtil.sendMessage(webSocket.getSession() , object.getString(MESSAGE));
