@@ -22,7 +22,7 @@ public class BroadCastAction implements Action{
         String message = object.getString(MESSAGE);
         //从本地取出所有的websocket发送消息
         manager.localWebSocketMap().values().forEach(
-                webSocket -> WebSocketUtil.sendMessage(
-                        webSocket.getSession() , message));
+                session -> WebSocketUtil.sendMessage(
+                        session , message));
     }
 }

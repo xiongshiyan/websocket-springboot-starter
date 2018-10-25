@@ -3,14 +3,13 @@ package top.jfunc.websocket.redis;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import top.jfunc.websocket.memory.MemWebSocketManager;
-import top.jfunc.websocket.WebSocket;
 import top.jfunc.websocket.redis.action.BroadCastAction;
-import top.jfunc.websocket.redis.action.ChangeStatusAction;
 import top.jfunc.websocket.redis.action.RemoveAction;
 import top.jfunc.websocket.redis.action.SendMessageAction;
 import top.jfunc.websocket.utils.JsonUtil;
 import top.jfunc.websocket.utils.WebSocketUtil;
 
+import javax.websocket.Session;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -34,8 +33,8 @@ public class RedisWebSocketManager extends MemWebSocketManager {
 
 
     @Override
-    public void put(String identifier, WebSocket webSocket) {
-        super.put(identifier, webSocket);
+    public void put(String identifier, Session session) {
+        super.put(identifier, session);
         //在线数量加1
         countChange(1);
     }
@@ -63,10 +62,10 @@ public class RedisWebSocketManager extends MemWebSocketManager {
 
     @Override
     public void sendMessage(String identifier, String message) {
-        WebSocket webSocket = get(identifier);
+        Session session = get(identifier);
         //本地能找到就直接发
-        if(null != webSocket){
-            WebSocketUtil.sendMessage(webSocket.getSession() , message);
+        if(null != session){
+            WebSocketUtil.sendMessage(session , message);
             return;
         }
 
@@ -85,21 +84,6 @@ public class RedisWebSocketManager extends MemWebSocketManager {
         map.put(DefaultRedisReceiver.ACTION , BroadCastAction.class.getName());
         map.put("message" , message);
         //在websocket频道上发布广播的消息
-        stringRedisTemplate.convertAndSend(getChannel() , JsonUtil.serializeMap(map));
-    }
-
-    @Override
-    public void changeStatus(String identifier, int status) {
-        WebSocket webSocket = get(identifier);
-        if(null != webSocket){
-            webSocket.setStatus(status);
-            return;
-        }
-        Map<String , Object> map = new HashMap<>(3);
-        map.put(DefaultRedisReceiver.ACTION , ChangeStatusAction.class.getName());
-        map.put(DefaultRedisReceiver.IDENTIFIER , identifier);
-        map.put("status" , status);
-        //在websocket频道上发布改变状态的消息
         stringRedisTemplate.convertAndSend(getChannel() , JsonUtil.serializeMap(map));
     }
 

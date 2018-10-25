@@ -1,10 +1,11 @@
 package top.jfunc.websocket.redis.action;
 
 import top.jfunc.json.impl.JSONObject;
-import top.jfunc.websocket.WebSocket;
 import top.jfunc.websocket.WebSocketManager;
 import top.jfunc.websocket.redis.DefaultRedisReceiver;
 import top.jfunc.websocket.utils.WebSocketUtil;
+
+import javax.websocket.Session;
 
 /**
  * {
@@ -28,10 +29,10 @@ public class SendMessageAction implements Action{
 
         String identifier = object.getString(DefaultRedisReceiver.IDENTIFIER);
 
-        WebSocket webSocket = manager.get(identifier);
-        if(null == webSocket){
+        Session session = manager.get(identifier);
+        if(null == session){
             return;
         }
-        WebSocketUtil.sendMessage(webSocket.getSession() , object.getString(MESSAGE));
+        WebSocketUtil.sendMessage(session , object.getString(MESSAGE));
     }
 }

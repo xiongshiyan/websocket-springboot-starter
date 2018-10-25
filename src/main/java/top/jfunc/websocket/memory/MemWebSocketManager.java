@@ -1,9 +1,9 @@
 package top.jfunc.websocket.memory;
 
-import top.jfunc.websocket.WebSocket;
 import top.jfunc.websocket.WebSocketManager;
 import top.jfunc.websocket.utils.WebSocketUtil;
 
+import javax.websocket.Session;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -14,16 +14,16 @@ public class MemWebSocketManager implements WebSocketManager {
     /**
      * 因为全局只有一个 WebSocketManager ，所以才敢定义为非static
      */
-    private final Map<String, WebSocket> connections = new ConcurrentHashMap<>(100);
+    private final Map<String, Session> connections = new ConcurrentHashMap<>(100);
 
     @Override
-    public WebSocket get(String identifier) {
+    public Session get(String identifier) {
         return connections.get(identifier);
     }
 
     @Override
-    public void put(String identifier, WebSocket webSocket) {
-        connections.put(identifier , webSocket);
+    public void put(String identifier, Session session) {
+        connections.put(identifier , session);
     }
 
     @Override
@@ -33,36 +33,23 @@ public class MemWebSocketManager implements WebSocketManager {
 
 
     @Override
-    public Map<String, WebSocket> localWebSocketMap() {
+    public Map<String, Session> localWebSocketMap() {
         return connections;
     }
 
     @Override
     public void sendMessage(String identifier, String message) {
-        WebSocket webSocket = get(identifier);
-        if(null == webSocket){throw new RuntimeException("identifier 不存在");}
+        Session session = get(identifier);
+        if(null == session){throw new RuntimeException("identifier 不存在");}
 
-        WebSocketUtil.sendMessage(webSocket.getSession() , message);
+        WebSocketUtil.sendMessage(session , message);
     }
 
     @Override
     public void broadcast(String message) {
         localWebSocketMap().values().forEach(
-                webSocket -> WebSocketUtil.sendMessage(
-                        webSocket.getSession() , message));
-    }
-
-    /**
-     * 修改当前的状态
-     * @param identifier 标识
-     * @param status 状态
-     */
-    @Override
-    public void changeStatus(String identifier , int status) {
-        WebSocket socket = get(identifier);
-        if(null == socket){return;}
-
-        socket.setStatus(status);
+                session -> WebSocketUtil.sendMessage(
+                        session , message));
     }
 
     @Override

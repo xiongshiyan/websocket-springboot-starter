@@ -8,6 +8,6 @@ import org.springframework.context.annotation.Import;
  * 将所有的Action配置进容器，通过名字找到
  */
 @Configuration
-@Import({SendMessageAction.class , ChangeStatusAction.class , BroadCastAction.class , RemoveAction.class , NoActionAction.class})
+@Import({SendMessageAction.class , BroadCastAction.class , RemoveAction.class , NoActionAction.class})
 public class ActionConfig {
 }

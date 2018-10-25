@@ -66,15 +66,11 @@ public class WebSocketEndpoint {
             if(StrUtil.isBlank(identifier)){
                 return;
             }
-            WebSocket socket = new WebSocket();
-            socket.setIdentifier(identifier);
-            socket.setSession(session);
-            socket.setStatus(WebSocket.STATUS_AVAILABLE);
-            //像刷新这种，id一样，session不一样，后面的覆盖前面的
 
             WebSocketManager websocketManager = getWebSocketManager();
 
-            websocketManager.put(identifier , socket);
+            //像刷新这种，id一样，session不一样，后面的覆盖前面的
+            websocketManager.put(identifier , session);
 
         } catch (Exception e) {
             logger.error(e.getMessage() , e);
