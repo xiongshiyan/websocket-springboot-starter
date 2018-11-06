@@ -1,6 +1,9 @@
 package top.jfunc.websocket.memory;
 
+import top.jfunc.websocket.WebSocketCloseEvent;
+import top.jfunc.websocket.WebSocketConnectEvent;
 import top.jfunc.websocket.WebSocketManager;
+import top.jfunc.websocket.utils.SpringContextHolder;
 import top.jfunc.websocket.utils.WebSocketUtil;
 
 import javax.websocket.Session;
@@ -24,11 +27,15 @@ public class MemWebSocketManager implements WebSocketManager {
     @Override
     public void put(String identifier, Session session) {
         connections.put(identifier , session);
+        //发送连接事件
+        SpringContextHolder.getApplicationContext().publishEvent(new WebSocketConnectEvent(identifier));
     }
 
     @Override
     public void remove(String identifier) {
         connections.remove(identifier);
+        //发送关闭事件
+        SpringContextHolder.getApplicationContext().publishEvent(new WebSocketCloseEvent(identifier));
     }
 
 
